@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Grade Average Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <br>
+    <br>
+    <center>
+    <div class="container">
+        <div style="margin-left: 25%; margin-right: 25%; background-color: rgb(245, 245, 245); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            <div class="container" >
+           <h1 style="text-align: center;">Score Analyzer</h1>
+
+
+<div>
+<details ontoggle="message()">
+    <summary><b>Instructions</b><br></summary>
+    <i> 
+        Enter your grades in the following subjects.
+</div>
+<br>
+<img src="MATH.jpeg" alt="math" style="height: 150px; width: 200px;"> <br>
+<input id="MATH" type="text" style="text-align: center; width: 50%;" placeholder="Math Grade">
+<br>
+<br>
+<div class="container">
+    <img src="eng.jpg" alt="english" style="height: 150px; width: 200px;"> <br>
+    <input id="ENG" type="text" style="text-align: center; width: 50%;" placeholder="English Grade">
+    <br>
+    <br>
+    <img src="science.jpg" alt="science" style="height: 150px; width: 200px;"> <br>
+    <input id="SCI" type="text" style="text-align: center; width: 50%;" placeholder="Science Grade">
+    <br>
+    <br>
+<button type="button" onclick="WEIGHT()">Calculate Gen Ave</button>
+<br>
+<br>
+    </div>
+
+
+
+
+<script>
+function result() {
+var MATH = parseFloat(document.getElementById("MATH")).value;
+var ENG = parseFloat(document.getElementById("ENG")).value;
+var SCI = parseFloat(document.getElementById("SCI")).value;
+
+var average = (MATH + ENG + SCI)/3;
+
+document.getElementById("result").innerHTML = windows.alert = "Your average is " + average;
+
+}
+
+</script>
+
+switch(average) {
+case (average && average ) average ="";
+break;
+
+
+}
+
+    </center>
+</body>
+</html>
+
